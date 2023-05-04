@@ -1,0 +1,12 @@
+CREATE DATABASE 'demo';
+USE demo;
+
+create table employees (
+	id  int(3) NOT NULL AUTO_INCREMENT,
+	name varchar(120) NOT NULL,
+	department varchar(220) NOT NULL,
+	salary decimal(10,2),
+	address varchar(300),
+	PRIMARY KEY (id)
+);
+
